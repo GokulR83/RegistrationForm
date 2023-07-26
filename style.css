@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left,#00ccff,#006aff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 700px;
+    height: fit-content;
+    background: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+
+}
+.heading{
+    margin-top: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 40px;
+}
+.gender{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.btn{
+    margin-bottom: 40px;
+}
+#start {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-color: #98c0f8;
+}
+
+.btn:hover {
+    background:linear-gradient(to left, #00ccff, #006aff);;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: ease-out 0.3s;
+}
